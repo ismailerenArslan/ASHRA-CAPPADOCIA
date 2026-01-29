@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri - ASHRA CAPPADOCIA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>ASHRA CAPPADOCIA</h1>
+                    <span class="logo-subtitle">Ürgüp</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="odalar.html">Mağara Odalar</a></li>
+                    <li><a href="aktiviteler.html">Deneyimler</a></li>
+                    <li><a href="galeri.html" class="active">Galeri</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-header" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/img/galeri-arka.jpg') center/cover;">
+        <div class="container">
+            <h1>Galeri</h1>
+            <p>ASHRA CAPPADOCIA'dan görüntüler</p>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">Tümü</button>
+                <button class="filter-btn" data-filter="rooms">Mağara Odalar</button>
+                <button class="filter-btn" data-filter="views">Manzaralar</button>
+                <button class="filter-btn" data-filter="activities">Aktiviteler</button>
+                <button class="filter-btn" data-filter="food">Yemek & İçecek</button>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="rooms">
+                    <img src="assets/img/standard-cave.png" alt="Standart Mağara Oda">
+                    <div class="gallery-overlay">
+                        <h3>Standart Mağara Oda</h3>
+                        <p>Otantik taş duvar detayları</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="views">
+                    <img src="assets/img/balloon.jpg" alt="Balon Manzarası">
+                    <div class="gallery-overlay">
+                        <h3>Balon Manzarası</h3>
+                        <p>Gün doğumunda sıcak hava balonları</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="rooms">
+                    <img src="assets/img/deluxe-suite.png" alt="Deluxe Suite">
+                    <div class="gallery-overlay">
+                        <h3>Deluxe Mağara Suite</h3>
+                        <p>Şömine ve jakuzi detayı</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="activities">
+                    <img src="assets/img/horse-safari.jpg" alt="At Safari">
+                    <div class="gallery-overlay">
+                        <h3>At Safari</h3>
+                        <p>Vadilerde at gezintisi</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="views">
+                    <img src="assets/img/peri-bacaları.jpg" alt="Peri Bacaları">
+                    <div class="gallery-overlay">
+                        <h3>Peri Bacaları</h3>
+                        <p>Kapadokya'nın simgesi</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="rooms">
+                    <img src="assets/img/fairy-chimney.png" alt="Peri Bacası Suite">
+                    <div class="gallery-overlay">
+                        <h3>Peri Bacası Suite</h3>
+                        <p>En lüks odamız</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="food">
+                    <img src="assets/img/resturant.jpg" alt="Teras Restoran">
+                    <div class="gallery-overlay">
+                        <h3>Panoramik Teras</h3>
+                        <p>Manzara eşliğinde yemek</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="activities">
+                    <img src="assets/img/mahsen.jpg" alt="Şarap Tadımı">
+                    <div class="gallery-overlay">
+                        <h3>Şarap Mahzeni</h3>
+                        <p>Yerel şarap tadımı</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="views">
+                    <img src="assets/img/vadi-manzara.jpg" alt="Vadi Manzarası">
+                    <div class="gallery-overlay">
+                        <h3>Vadi Manzarası</h3>
+                        <p>Günbatımı panoraması</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="rooms">
+                    <img src="assets/img/jakuzi.jpg" alt="Mağara Banyo">
+                    <div class="gallery-overlay">
+                        <h3>Lüks Mağara Banyo</h3>
+                        <p>Doğal taş ve jakuzi</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="activities">
+                    <img src="assets/img/çömlek.jpg" alt="Çömlek Atölyesi">
+                    <div class="gallery-overlay">
+                        <h3>Çömlek Atölyesi</h3>
+                        <p>Avanos geleneksel çömlekçiliği</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="food">
+                    <img src="assets/img/testi-kebabi.jpg" alt="Testi Kebabı">
+                    <div class="gallery-overlay">
+                        <h3>Testi Kebabı</h3>
+                        <p>Geleneksel Kapadokya yemeği</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="views">
+                    <img src="assets/img/deneyim-arka-plan1.webp" alt="Kapadokya Manzarası">
+                    <div class="gallery-overlay">
+                        <h3>Kapadokya Panoraması</h3>
+                        <p>Eşsiz doğal güzellik</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="rooms">
+                    <img src="assets/img/terras.avif" alt="Teras Odalı">
+                    <div class="gallery-overlay">
+                        <h3>Teraslı Oda</h3>
+                        <p>Özel balkon ve manzara</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="activities">
+                    <img src="assets/img/atv.jpg" alt="ATV Safari">
+                    <div class="gallery-overlay">
+                        <h3>ATV Safari</h3>
+                        <p>Macera dolu off-road deneyimi</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="food">
+                    <img src="assets/img/kahvaltı.jpg" alt="Kahvaltı">
+                    <div class="gallery-overlay">
+                        <h3>Kahvaltı Sofrası</h3>
+                        <p>Zengin Türk kahvaltısı</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="views">
+                    <img src="assets/img/underground-city.webp" alt="Yeraltı Şehri">
+                    <div class="gallery-overlay">
+                        <h3>Yeraltı Şehri</h3>
+                        <p>Tarihi yeraltı yapıları</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="rooms">
+                    <img src="assets/img/romantik-oda.jpg" alt="Romantik Oda">
+                    <div class="gallery-overlay">
+                        <h3>Romantik Suite</h3>
+                        <p>Balayı özel oda</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="lightbox-caption"></div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ASHRA CAPPADOCIA</h3>
+                    <p>Kapadokya'nın kalbinde tarihi mağara otel deneyimi</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Hızlı Linkler</h4>
+                    <ul>
+                        <li><a href="index.html">Ana Sayfa</a></li>
+                        <li><a href="odalar.html">Mağara Odalar</a></li>
+                        <li><a href="aktiviteler.html">Deneyimler</a></li>
+                        <li><a href="iletisim.html">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>İletişim</h4>
+                    <p>📞 +90 384 341 50 00</p>
+                    <p>✉️ info@ashracappadocia.com</p>
+                    <p>📍 Ürgüp, Nevşehir</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ASHRA CAPPADOCIA. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
