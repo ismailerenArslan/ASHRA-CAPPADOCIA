@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim - ASHRA CAPPADOCIA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>ASHRA CAPPADOCIA</h1>
+                    <span class="logo-subtitle">Ürgüp</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="odalar.html">Mağara Odalar</a></li>
+                    <li><a href="aktiviteler.html">Deneyimler</a></li>
+                    <li><a href="galeri.html">Galeri</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="iletisim.html" class="active">İletişim</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-header" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/img/itetisim.jpg') center/cover;">
+        <div class="container">
+            <h1>İletişim</h1>
+            <p>Size yardımcı olmak için buradayız</p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>İletişim Bilgileri</h2>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h3>Adres</h3>
+                            <p>Esbelli Mahallesi, Kapadokya Caddesi No:24<br>Ürgüp, Nevşehir 50400<br>Türkiye</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h3>Telefon</h3>
+                            <p>Resepsiyon: +90 384 341 50 00<br>Rezervasyon: +90 384 341 50 01<br>WhatsApp: +90 532 123 45 67</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h3>E-posta</h3>
+                            <p>Genel: info@ashracappadocia.com<br>Rezervasyon: booking@ashracappadocia.com<br>Etkinlikler: events@ashracappadocia.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🕐</div>
+                        <div class="contact-details">
+                            <h3>Çalışma Saatleri</h3>
+                            <p>Resepsiyon: 7/24 Açık<br>Rezervasyon: 09:00 - 22:00<br>Restoran: 07:00 - 23:00</p>
+                        </div>
+                    </div>
+
+                    <div class="transportation-info">
+                        <h3>🚗 Ulaşım Bilgileri</h3>
+                        <ul>
+                            <li><strong>Nevşehir Havalimanı:</strong> 40 km (45 dakika)</li>
+                            <li><strong>Kayseri Havalimanı:</strong> 75 km (1 saat)</li>
+                            <li><strong>Ürgüp Merkez:</strong> 2 km (5 dakika)</li>
+                            <li><strong>Göreme:</strong> 8 km (15 dakika)</li>
+                        </ul>
+                        <p class="transfer-note">✈️ Ücretsiz havalimanı transferi sağlıyoruz (minimum 2 gece konaklama)</p>
+                    </div>
+
+                    <div class="social-links">
+                        <h3>Sosyal Medya</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon">📘 Facebook</a>
+                            <a href="#" class="social-icon">📷 Instagram</a>
+                            <a href="#" class="social-icon">🐦 Twitter</a>
+                            <a href="#" class="social-icon">📌 TripAdvisor</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <h2>Rezervasyon ve Bilgi Formu</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Ad Soyad *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-posta *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefon *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="country">Ülke</label>
+                            <input type="text" id="country" name="country">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Konu *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Seçiniz</option>
+                                <option value="rezervasyon">Rezervasyon</option>
+                                <option value="balon-turu">Balon Turu</option>
+                                <option value="ozel-etkinlik">Özel Etkinlik</option>
+                                <option value="transfer">Transfer</option>
+                                <option value="bilgi">Genel Bilgi</option>
+                                <option value="diger">Diğer</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="guests">Misafir Sayısı</label>
+                            <select id="guests" name="guests">
+                                <option value="1">1 Kişi</option>
+                                <option value="2" selected>2 Kişi</option>
+                                <option value="3">3 Kişi</option>
+                                <option value="4">4 Kişi</option>
+                                <option value="5+">5+ Kişi</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="checkin">Giriş Tarihi</label>
+                            <input type="date" id="checkin" name="checkin">
+                        </div>
+                        <div class="form-group">
+                            <label for="checkout">Çıkış Tarihi</label>
+                            <input type="date" id="checkout" name="checkout">
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="message">Mesajınız *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Özel istekleriniz veya sorularınız..."></textarea>
+                        </div>
+                        <button type="submit" class="btn">Gönder</button>
+                    </form>
+                    <div id="formMessage" class="form-message"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Konumumuz</h2>
+            <div class="map-container">
+                <!-- Ürgüp, Nevşehir Koordinatları: 38.6294° N, 34.9113° E -->
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12453.761890941832!2d34.90171687268952!3d38.62941117130348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152a6772546abbd9%3A0x8164f48a8da3cf85!2zw5xyZ8O8cCwgTmV2xZ9laGly!5e0!3m2!1str!2str!4v1700000000000!5m2!1str!2str"
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Sıkça Sorulan Sorular</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Check-in ve check-out saatleri nedir?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Check-in saatimiz 14:00, check-out saatimiz ise 11:00'dir. Erken giriş veya geç çıkış için lütfen bizimle önceden iletişime geçin. Uygunluk durumuna göre ekstra ücret karşılığında düzenlenebilir.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Havalimanı transferi sağlıyor musunuz?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Evet, Nevşehir ve Kayseri havalimanlarından ücretsiz transfer hizmeti sunuyoruz (minimum 2 gece konaklama şartıyla). Tek gece konaklamalarda ve kısa süreli ziyaretlerde ücretli transfer hizmeti mevcuttur.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Balon turu rezervasyonu nasıl yapılır?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Balon turları için rezervasyon formumuzdan veya doğrudan telefonla bizimle iletişime geçebilirsiniz. Hava koşulları nedeniyle son dakika iptalleri olabileceğinden, en az 2 gün önceden rezervasyon yapmanızı öneririz.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Odalarda Wi-Fi var mı?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Evet, tüm odalarda ve ortak alanlarda ücretsiz yüksek hızlı Wi-Fi bulunmaktadır.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Otopark imkanı var mı?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Evet, misafirlerimiz için ücretsiz özel otopark alanımız bulunmaktadır. Elektrikli araçlar için şarj istasyonlarımız da mevcuttur.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Çocuklu aileler için özel hizmetleriniz var mı?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Evet, bebek karyolası, çocuk menüsü ve bebek bakım ürünleri ücretsiz olarak sağlanmaktadır. Ayrıca Aile Mağara Suite odalarımız geniş aileler için idealdir.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>İptal politikanız nedir?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Rezervasyonunuzu check-in tarihinden 7 gün öncesine kadar ücretsiz iptal edebilirsiniz. 7 günden sonraki iptallerde 1 gece ücreti tahsil edilir. Özel dönemlerde (bayramlar, yılbaşı) farklı iptal koşulları geçerli olabilir.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Odalarda ısıtma sistemi nasıl?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Tüm odalarımızda yerden ısıtma sistemi bulunmaktadır. Kapadokya'nın soğuk kış aylarında bile odalarınız sıcak ve konforludur. Ayrıca suite odalarda şömine de mevcuttur.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ASHRA CAPPADOCIA</h3>
+                    <p>Kapadokya'nın kalbinde tarihi mağara otel deneyimi</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Hızlı Linkler</h4>
+                    <ul>
+                        <li><a href="index.html">Ana Sayfa</a></li>
+                        <li><a href="odalar.html">Mağara Odalar</a></li>
+                        <li><a href="aktiviteler.html">Deneyimler</a></li>
+                        <li><a href="iletisim.html">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>İletişim</h4>
+                    <p>📞 +90 384 341 50 00</p>
+                    <p>✉️ info@ashracappadocia.com</p>
+                    <p>📍 Ürgüp, Nevşehir</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ASHRA CAPPADOCIA. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
