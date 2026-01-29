@@ -378,10 +378,7 @@ ASHRA-CAPPADOCIA/
 - **Email**: info@ashracappadocia.com
 - **Adres**: Esbelli Mahallesi, Kapadokya Caddesi No:24, Ürgüp, Nevşehir 50400
 - **Sosyal Medya**:İsmail Eren Arslan 
-- **Öğrenci No:** 24118024
-- **E-posta:** ismail.arslan1@kun.edu.tr
-- **Ders:** BGY207 - Web Tasarımı  
-- **Dönem:** 2025-2026 Güz Dönemi
+- **E-posta:** ismailerenarslan@gmail.com
 ---
 
 ##  Notlar
@@ -445,5 +442,6 @@ Bu proje eğitim ve portfolyo amaçlı geliştirilmiştir. Görseller ücretsiz 
 ```
 
 ---
+
 
 **© 2024 ASHRA CAPPADOCIA - Tüm hakları saklıdır.**
