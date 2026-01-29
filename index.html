@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASHRA CAPPADOCIA - Ürgüp Mağara Otel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Yükleme Ekranı -->
+    <div class="loader-wrapper">
+        <div class="loader-content">
+            <div class="loader-logo">ASHRA</div>
+            <div class="loader-subtitle">CAPPADOCIA</div>
+            <div class="loader-spinner"></div>
+            <div class="loader-text">Büyülü deneyim yükleniyor...</div>
+        </div>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>ASHRA CAPPADOCIA</h1>
+                    <span class="logo-subtitle">Ürgüp</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Ana Sayfa</a></li>
+                    <li><a href="odalar.html">Mağara Odalar</a></li>
+                    <li><a href="aktiviteler.html">Deneyimler</a></li>
+                    <li><a href="galeri.html">Galeri</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('assets/img/hero-bg.png') center/cover;">
+        <canvas id="particleCanvas"></canvas>
+        <div class="hero-content">
+            <h2>Kapadokya'nın Büyüsünde Konaklayın</h2>
+            <p>Peri bacaları arasında tarihi mağara otel deneyimi</p>
+            <a href="odalar.html" class="btn">Mağara Odalarımızı Keşfedin</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Neden ASHRA CAPPADOCIA?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎈</div>
+                    <h3>Balon Turu</h3>
+                    <p>Gün doğumunda sıcak hava balonuyla Kapadokya manzarasını keşfedin</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏛️</div>
+                    <h3>Tarihi Mağara Odalar</h3>
+                    <p>Binlerce yıllık doğal kayalara oyulmuş otantik odalarımız</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🍷</div>
+                    <h3>Kapadokya Mutfağı</h3>
+                    <p>Yerel şaraplar ve geleneksel Kapadokya lezzetleri</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌄</div>
+                    <h3>Panoramik Teraslar</h3>
+                    <p>Peri bacalarının eşsiz manzarasına nazır teraslarımız</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="rooms-preview">
+        <div class="container">
+            <h2 class="section-title">Otantik Mağara Odalarımız</h2>
+            <div class="rooms-grid">
+                <div class="room-card">
+                    <div class="room-image" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('assets/img/standard-cave.png') center/cover;"></div>
+                    <div class="room-info">
+                        <h3>Standart Mağara Oda</h3>
+                        <p>Doğal taş dokulu, peri bacası manzaralı, 28m²</p>
+                        <div class="room-price">₺3.200 / Gece</div>
+                        <a href="odalar.html" class="btn-secondary">Detaylar</a>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <div class="room-image" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('assets/img/deluxe-suite.png') center/cover;"></div>
+                    <div class="room-info">
+                        <h3>Deluxe Mağara Suite</h3>
+                        <p>Özel şömine, jakuzili, vadi manzaralı, 45m²</p>
+                        <div class="room-price">₺5.500 / Gece</div>
+                        <a href="odalar.html" class="btn-secondary">Detaylar</a>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <div class="room-image" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('assets/img/fairy-chimney.png') center/cover;"></div>
+                    <div class="room-info">
+                        <h3>Peri Bacası Suite</h3>
+                        <p>Peri bacasına oyulmuş, özel teraslı, 65m²</p>
+                        <div class="room-price">₺8.900 / Gece</div>
+                        <a href="odalar.html" class="btn-secondary">Detaylar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience-section">
+        <div class="container">
+            <h2 class="section-title">Kapadokya Deneyimi</h2>
+            <div class="experience-grid">
+                <div class="experience-item">
+                    <div class="experience-image" style="background: url('assets/img/balloon.jpg') center/cover;"></div>
+                    <div class="experience-content">
+                        <h3>🎈 Sıcak Hava Balonu</h3>
+                        <p>Gün doğumunda gökyüzünden Kapadokya'yı izleyin</p>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-image" style="background: url('assets/img/horse-safari.jpg') center/cover;"></div>
+                    <div class="experience-content">
+                        <h3>🐎 At Safari</h3>
+                        <p>Vadilerde at sırtında gezinti deneyimi</p>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-image" style="background: url('assets/img/wine-tasting.webp') center/cover;"></div>
+                    <div class="experience-content">
+                        <h3>🍷 Şarap Tadımı</h3>
+                        <p>Yerel bağlardan özel şarap tadımları</p>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-image" style="background: url('assets/img/çömlek.jpg') center/cover;"></div>
+                    <div class="experience-content">
+                        <h3>🏺 Çömlek Atölyesi</h3>
+                        <p>Geleneksel Avanos çömleği yapım deneyimi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Misafirlerimizin Deneyimleri</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Mağara odada kalmak inanılmaz bir deneyimdi. Balon turunu izlemek için terasta kahvaltı yapmak unutulmazdı!"</p>
+                    <div class="testimonial-author">- Ayşe & Mehmet K.</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Otelin konumu mükemmel. Ürgüp merkezine yakın, vadi yürüyüşleri için ideal. Personel çok ilgili ve yardımcı."</p>
+                    <div class="testimonial-author">- John & Sarah M.</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Romantik bir kaçamak için mükemmel. Şömineli odamız, jakuzi ve peri bacası manzarası... Her şey harikaydı!"</p>
+                    <div class="testimonial-author">- Elif D.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>Kapadokya Masalı Sizi Bekliyor</h2>
+            <p>ASHRA CAPPADOCIA'da büyülü bir konaklama deneyimi yaşayın</p>
+            <a href="iletisim.html" class="btn">Hemen Rezervasyon Yapın</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ASHRA CAPPADOCIA</h3>
+                    <p>Kapadokya'nın kalbinde tarihi mağara otel deneyimi</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Hızlı Linkler</h4>
+                    <ul>
+                        <li><a href="index.html">Ana Sayfa</a></li>
+                        <li><a href="odalar.html">Mağara Odalar</a></li>
+                        <li><a href="aktiviteler.html">Deneyimler</a></li>
+                        <li><a href="iletisim.html">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>İletişim</h4>
+                    <p>📞 +90 384 341 50 00</p>
+                    <p>✉️ info@ashracappadocia.com</p>
+                    <p>📍 Ürgüp, Nevşehir</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ASHRA CAPPADOCIA. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
